@@ -7,3 +7,51 @@ body {
   min-height: 100%;
   font: 16px / 1 sans-serif;
 }
+
+.box{
+  margin: 1em;
+  padding: 1em;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: orangered;
+  font-family: sans-serif;
+}
+
+.orangeBar{
+  padding: 5px;
+}
+
+a.topLink{
+  color: black;
+}
+
+a.newsLink{
+  color: white;
+}
+
+a {
+  color: gray;
+  text-decoration: none;
+}
+
+.wholeBody {
+  background-color: rgb(216, 215, 215);
+  text-decoration: none;
+  color: gray;
+}
+
+h4 {
+  margin: 0;
+  padding: 5px;
+  font-family: sans-serif;
+  color: black;
+}
+
+h6{
+  margin: 5px;
+  font-family: sans-serif;
+}
